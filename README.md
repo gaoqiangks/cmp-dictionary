@@ -30,7 +30,6 @@ require("cmp").setup({
 })
 
 require("cmp_dictionary").setup({
-  paths = { "/usr/share/dict/words" },
   exact_length = 2,
 })
 ```
