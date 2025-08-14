@@ -91,7 +91,7 @@ function M.setup(opts)
     local p = "/Users/gaoqiang/.local/share/nvim/lazy/cmp-dictionary/data/words"
     opts.paths = opts.paths or {}
     table.insert(opts.paths, p)
-    log("paths = " .. vim.inspect(opts.paths))
+    -- log("paths = " .. vim.inspect(opts.paths))
     if opts.paths then
         opts.paths = vim.tbl_map(function(path)
             return vim.fn.expand(path)
